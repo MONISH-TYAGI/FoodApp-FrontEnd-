@@ -27,7 +27,7 @@ function PlanDetail() {
         delete data.data.data["__v"]
         setplan(data.data.data)
         const reviews = await axios.get("/review/"+id);
-        console.log("this sir",reviews);
+        console.log("this sir",reviews) ;
         // console.log(reviews.data.reviews);
         setarr(reviews.data.reviews)
         }else{
