@@ -10,6 +10,7 @@ function ResetPassword() {
     const history = useHistory();
     const [password, passwordSet] = useState("");
     const [confirm, setConfirm] = useState("");
+    console.log("reseting the password")
     const handleResetPassword=async()=>{
         const currentURL = window.location.href;
 

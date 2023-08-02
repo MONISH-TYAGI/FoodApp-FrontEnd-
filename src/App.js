@@ -17,7 +17,7 @@ import Payment from './Components/payment/pay';
 function App() {
   return (
     <Router>
-      
+    
       <AuthProvider>
       
         <NavBar />
@@ -32,9 +32,7 @@ function App() {
           <Route path="/forgetPassword">
             <ForgetPassword />
           </Route>
-          <Route path="/user/resetpassword">
-            <ResetPassword />
-          </Route>
+          
           <Route path="/allPlans">
             <AllPlans />
           </Route>
@@ -44,7 +42,9 @@ function App() {
           <Route path="/planDetail/:id">
             <PlanDetail />
           </Route>
-         
+          <Route path="/user/resetpassword/:id">
+            <ResetPassword />
+          </Route>
           <Route path="/payment">
             <Payment></Payment>
           </Route>

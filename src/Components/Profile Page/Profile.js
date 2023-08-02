@@ -79,11 +79,11 @@ function Profile() {
                     </div>
                     <div className="entryBox">
                         <div className="entryText">Password</div>
-                        <input className="password input" type="text" value={password} onChange={(e) => passwordSet(e.target.value)} />
+                        <input className="password input" type="password" value={password} onChange={(e) => passwordSet(e.target.value)} />
                     </div>
                     <div className="entryBox">
                         <div className="entryText">Confirm Password</div>
-                        <input className="password input" type="text" value={passwordCnf} onChange={(e) => passwordCnfSet(e.target.value)} />
+                        <input className="password input" type="password" value={passwordCnf} onChange={(e) => passwordCnfSet(e.target.value)} />
                     </div>
                     <div className="entryBox">
                         <div className="entryText">Name</div>

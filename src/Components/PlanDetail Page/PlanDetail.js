@@ -42,16 +42,16 @@ function PlanDetail() {
    
     console.log(rate);
     console.log("user ----->",user);  
-    const handleBuy= async()=>{
-        console.log("buy plan")
-        let res=await axios.post('/booking/createSession');
-        // res.resolve();
-        // console.log(res.config.url)
-        // window.location.replace(res.config.url)
-        // res.data.session.url=res.data.session.url.replace("localhost", "
-        // console.log(res.data.session.url);
-        console.log(res);
-    }  
+    // const handleBuy= async()=>{
+    //     console.log("buy plan")
+    //     let res=await axios.post('/booking/createSession');
+    //     // res.resolve();
+    //     // console.log(res.config.url)
+    //     // window.location.replace(res.config.url)
+    //     // res.data.session.url=res.data.session.url.replace("localhost", "
+    //     // console.log(res.data.session.url);
+    //     console.log(res);
+    // }  
     const handleClick = async () => {
         // console.log("user ----->",user);    
         console.log(123645);
